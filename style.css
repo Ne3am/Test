@@ -1,0 +1,58 @@
+/**{
+    box-sizing: border-box;
+}
+html{
+    position: relative;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    margin: 10px;
+    list-style: none;
+
+}
+.one{
+    padding: 20px;
+    margin: 10px;
+    color: rgb(10, 1, 19);
+    font-size: 20px;
+
+}
+.one-private{
+    padding: 20px;
+    margin: 10px;
+    color: rgb(10, 1, 19);
+    font-size: 20px;
+}
+.tow{
+    
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+
+}
+.one:hover{
+    color: blueviolet;
+    background-color: rgb(16, 16, 77);
+
+}
+.one-private:hover{
+    color: blueviolet;
+    background-color: rgb(16, 16, 77);
+}
+.one-private:hover ~ .tow{
+    display: block;
+}*/
+body{
+    height: 5000px;
+}
+button{
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: brown;
+    position:sticky;
+    top: 0;
+}
